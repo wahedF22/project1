@@ -1,0 +1,38 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+ul,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
